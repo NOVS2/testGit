@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>꽃밭</title>
+    <style>
+    body {
+        background-image : url("resources/images/woodwallpaper.jpg");
+        background-size: cover;
+        width: 1500px;
+        height: 800px;
+        position: relative;
+    }
+    .outer {
+        border : 1px solid black;
+        background : white;
+        width: 250px;
+        height: 250px;
+        display : inline-block;
+        margin-top : 200px;
+        margin-left : 30px;
+    }
+    #outer1 {
+        margin-left :200px;
+    }
+    .img {
+        padding : 5px;
+        box-sizing : border-box;
+        width : 240px;
+        height : 160px;
+    }
+    .outer>div {
+        text-align : center;
+        vertical-align : middle;
+        color : blue;
+    }
+    .rotate1 {
+        transform : rotate(10deg);
+    }
+    .rotate2 {
+        transform : rotate(-10deg);
+    }
+    .rotate3 {
+        transform : rotate(-15deg);
+    }
+    .rotate4 {
+        transform : rotate(15deg);
+    }
+    </style>
+</head>
+<body>
+    
+    <h1>CSS 활용 1 : 카드 형태 만들기</h1>
+
+    <div id="outer1" class="rotate1 outer">
+        <img class="img" src="resources/images/city1.PNG"><br>
+        <div>
+            2021-12-31<br>
+            오늘따라 햇살이 정말 밝다...<br>
+            #아씨...#지각함#황사#창문열고옴<br>
+        </div>
+    </div>
+    <div id="outer2" class="rotate1 outer">
+        <img class="img" src="resources/images/forest1.PNG"><br>
+        <div>
+            숲 속을 걸어요.<br>
+            산새들이 짹짹거리는~♪<br>
+            #전역#헐#우리집#이사감<br>
+        </div>
+    </div>
+    <div id="outer3" class="rotate1 outer">
+        <img class="img" src="resources/images/flower1.PNG"><br>
+        <div>
+            2021-04-01<br>
+            [속보] 벚꽃 개화 시기 예상<br>
+            #2021#벚꽃갬성#코로나ㅠㅠ<br>
+        </div>
+    </div>
+    <div id="outer4" class="rotate1 outer">
+        <img class="img" src="resources/images/river1.PNG"><br>
+        <div>
+            낚시란<br>
+            인생은 쉬어가는 취미<br>
+            #못잡음#수산시장#광어#만오천원<br>
+        </div>
+    </div>
+
+</body>
+</html>
